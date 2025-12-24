@@ -1,0 +1,88 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\11386\\.ohos\\config\\default_AIOffice1_BKZU5JcH7NUYJVjQbwF6SBgfh0yP_nG_d5w23B1ysD0=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BC2987385E1CC491E7EAAA133527B9C3CAAB889A97C31BF69D092539C96BD759185F22AA9FB57DE",
+          "profile": "C:\\Users\\11386\\.ohos\\config\\default_AIOffice1_BKZU5JcH7NUYJVjQbwF6SBgfh0yP_nG_d5w23B1ysD0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\11386\\.ohos\\config\\default_AIOffice1_BKZU5JcH7NUYJVjQbwF6SBgfh0yP_nG_d5w23B1ysD0=.p12",
+          "storePassword": "0000001BF87CDC5D10180426B7A6469C3EB3B7F7859CA3E4E1CCC487B80C772B9B7C8E9368BCE6E57F0F9F"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "5.0.5(17)",
+        "compatibleSdkVersion": "5.0.5(17)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "phone",
+      "srcPath": "./products/phone",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "business_mine",
+      "srcPath": "./components/business_mine"
+    },
+    {
+      "name": "business_setting",
+      "srcPath": "./components/business_setting"
+    },
+    {
+      "name": "lib_account",
+      "srcPath": "./components/lib_account"
+    },
+    {
+      "name": "lib_common",
+      "srcPath": "./components/lib_common"
+    },
+    {
+      "name": "lib_widget",
+      "srcPath": "./components/lib_widget"
+    },
+    {
+      "name": "lib_api",
+      "srcPath": "./components/lib_api"
+    },
+    {
+      "name": "module_feedback",
+      "srcPath": "./components/module_feedback"
+    },
+    {
+      "name": "module_imagepreview",
+      "srcPath": "./components/module_imagepreview"
+    }
+  ]
+}

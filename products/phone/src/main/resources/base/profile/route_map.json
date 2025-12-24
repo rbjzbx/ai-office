@@ -1,0 +1,59 @@
+{
+  "routerMap": [
+    {
+      "name": "IndexPage",
+      "pageSourceFile": "src/main/ets/pages/IndexPage.ets",
+      "buildFunction": "IndexPageBuilder"
+    },
+    {
+      "name": "SafePage",
+      "pageSourceFile": "src/main/ets/pages/SafePage.ets",
+      "buildFunction": "SafePageBuilder"
+    },
+    {
+      "name": "ChatHistoryPage",
+      "pageSourceFile": "src/main/ets/pages/chat/ChatHistoryPage.ets",
+      "buildFunction": "ChatHistoryPageBuilder"
+    },
+    {
+      "name": "CampusPolicyChatPage",
+      "pageSourceFile": "src/main/ets/pages/office/CampusPolicyChatPage.ets",
+      "buildFunction": "CampusPolicyChatPageBuilder"
+    },
+    {
+      "name": "TextToVideoPage",
+      "pageSourceFile": "src/main/ets/pages/office/TextToVideoPage.ets",
+      "buildFunction": "TextToVideoPageBuilder"
+    },
+    {
+      "name": "OfficeHistoryPage",
+      "pageSourceFile": "src/main/ets/pages/office/OfficeHistoryPage.ets",
+      "buildFunction": "OfficeHistoryPageBuilder"
+    },
+    {
+      "name": "OfficeResultPage",
+      "pageSourceFile": "src/main/ets/pages/office/OfficeResultPage.ets",
+      "buildFunction": "OfficeResultPageBuilder"
+    },
+    {
+      "name": "PrivacyPage",
+      "pageSourceFile": "src/main/ets/pages/PrivacyPage.ets",
+      "buildFunction": "PrivacyPageBuilder"
+    },
+    {
+      "name": "AgreePrivacyPage",
+      "pageSourceFile": "src/main/ets/pages/AgreeDialogPage.ets",
+      "buildFunction": "AgreePrivacyPageBuilder"
+    },
+    {
+      "name": "SplashPage",
+      "pageSourceFile": "src/main/ets/pages/SplashPage.ets",
+      "buildFunction": "SplashPageBuilder"
+    },
+    {
+      "name": "LoginPage",
+      "pageSourceFile": "src/main/ets/pages/LoginPage.ets",
+      "buildFunction": "LoginPageBuilder"
+    }
+  ]
+}

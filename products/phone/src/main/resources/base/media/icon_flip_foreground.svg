@@ -1,0 +1,57 @@
+<svg width="192" height="192" viewBox="0 0 192 192"
+	 fill="none" xmlns="http://www.w3.org/2000/svg">
+
+	<defs>
+		<!-- 校园稳态蓝 -->
+		<linearGradient id="campusBlue" x1="0" y1="0" x2="0" y2="1">
+			<stop stop-color="#2272F3"/>
+			<stop offset="1" stop-color="#6CD1FF"/>
+		</linearGradient>
+
+		<!-- AI 能量蓝 -->
+		<linearGradient id="aiBlue" x1="0" y1="0" x2="1" y2="1">
+			<stop stop-color="#6CD1FF"/>
+			<stop offset="1" stop-color="#BEEBFF"/>
+		</linearGradient>
+
+		<!-- 数据层渐变 -->
+		<linearGradient id="dataBlue" x1="0" y1="1" x2="1" y2="0">
+			<stop stop-color="#6CD1FF"/>
+			<stop offset="1" stop-color="#2272F3"/>
+		</linearGradient>
+	</defs>
+
+	<!-- 背景透明 -->
+	<rect width="192" height="192" fill="transparent"/>
+
+	<!-- === AI 悬浮层（顶部，完全独立） === -->
+	<circle cx="96" cy="44" r="16" fill="url(#aiBlue)"/>
+	<circle cx="78" cy="52" r="4" fill="#6CD1FF"/>
+	<circle cx="114" cy="52" r="4" fill="#6CD1FF"/>
+	<line x1="78" y1="52" x2="96" y2="44" stroke="#6CD1FF" stroke-width="2"/>
+	<line x1="114" y1="52" x2="96" y2="44" stroke="#6CD1FF" stroke-width="2"/>
+
+	<!-- === 校园主体（中部，稳定） === -->
+
+	<!-- 屋顶 -->
+	<path d="M48 96 L96 64 L144 96"
+		  stroke="url(#campusBlue)"
+		  stroke-width="10"
+		  stroke-linecap="round"
+		  stroke-linejoin="round"/>
+
+	<!-- 教学楼 -->
+	<rect x="56" y="96" width="80" height="52" rx="10"
+		  stroke="url(#campusBlue)"
+		  stroke-width="10"/>
+
+	<!-- 门 -->
+	<rect x="88" y="116" width="16" height="32" rx="4"
+		  stroke="url(#campusBlue)"
+		  stroke-width="6"/>
+
+	<!-- === 数据 / 能力底座（底部） === -->
+	<rect x="36" y="156" rx="8" width="120" height="12"
+		  fill="url(#dataBlue)"/>
+
+</svg>
